@@ -1,1 +1,1 @@
-<h1>Definição da contribuição: cards de produtos.</h1>
+<h1>Definição da contribuição: Details design.</h1>
