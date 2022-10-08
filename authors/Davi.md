@@ -1,0 +1,1 @@
+Definição da contribuição: cards de produtos.
