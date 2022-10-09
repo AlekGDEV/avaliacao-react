@@ -1,4 +1,4 @@
-import footer from "./footer/footer";
+import Footer from "./footer/footer";
 export default function App() {
   return (
     <div className="App">
@@ -22,7 +22,7 @@ export default function App() {
       </main>
 
       <footer>
-        {footer()}
+        <Footer />
       </footer>
     </div>
   );

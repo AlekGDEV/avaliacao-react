@@ -1,9 +1,20 @@
-export default function footer() {
+export default function Footer() {
     return( 
-    <div>
-        <h1>Teste</h1>
-        <p>It's working</p>
-    </div> 
+        <section>
+            <div>
+
+
+
+
+
+            </div>
+            <footer>
+                
+                
+
+            
+            </footer> 
+        </section>
     )
 }
 
