@@ -1,5 +1,4 @@
-import './App.css';
-
+import footer from "./footer/footer";
 export default function App() {
   return (
     <div className="App">
