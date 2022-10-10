@@ -1,3 +1,4 @@
+
 nav {
     width: 308px;
     border-radius: 4px;
@@ -78,9 +79,8 @@ label {
 
   .radio input:checked + label:before {
     box-sizing: border-box;
-    background-color: #FFFFFF;
-    border: 5px solid #FFFFFF;
-    border-color: #C92071;    
-    
+    background-color: #C92071;
+    outline: #C92071 solid 1px;
+    border: 3px solid #FFFFFF;
   }
   

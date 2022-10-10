@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css"
 import "./style.css"
 
+
 export default function Navbar () 
 {
     return ( 
@@ -11,71 +12,67 @@ export default function Navbar ()
             <div className="itens">
                 <div className="nav-categoria mb-1 mt-2">Marca</div>
                 <div className="checkbox">
-                    <input id="check1" className="" type="checkbox"/>
-                    <label htmlFor="check1">Addidas</label>
+                    <input id="check_adidas" className="" type="checkbox"/>
+                    <label htmlFor="check_adidas">Addidas</label>
                 </div>
                 <div className="checkbox">
-                    <input id="check2" className="" type="checkbox"/>
-                    <label htmlFor="check2">Calenciaga</label>
+                    <input id="check_calenciaga" className="" type="checkbox"/>
+                    <label htmlFor="check_calenciaga">Calenciaga</label>
                 </div>
                 <div className="checkbox">
-                    <input id="check3" className="" type="checkbox"/>
-                    <label htmlFor="check3">K-Swiss</label>
+                    <input id="check_swiss" className="" type="checkbox"/>
+                    <label htmlFor="check_swiss">K-Swiss</label>
                 </div>
                 <div className="checkbox">
-                    <input id="check4" className="" type="checkbox"/>
-                    <label htmlFor="check4">Nike</label>
+                    <input id="check_nike" className="" type="checkbox"/>
+                    <label htmlFor="check_nike">Nike</label>
                 </div>
                 <div className="checkbox">
-                    <input id="check5" className="" type="checkbox"/>
-                    <label htmlFor="check5">Puma</label>
+                    <input id="check_puma" className="" type="checkbox"/>
+                    <label htmlFor="check_puma">Puma</label>
                 </div>
 
                 <div className="nav-categoria mb-1 mt-2">Categoria</div>
                 <div className="checkbox">
-                    <input id="check6" className="" type="checkbox"/>
-                    <label htmlFor="check6">Esporte e lazer</label>
+                    <input id="check_esporte" className="" type="checkbox"/>
+                    <label htmlFor="check_esporte">Esporte e lazer</label>
                 </div>
                 <div className="checkbox">
-                    <input id="check7" className="" type="checkbox"/>
-                    <label htmlFor="check7">Casual</label>
+                    <input id="check_casual" className="" type="checkbox"/>
+                    <label htmlFor="check_casual">Casual</label>
                 </div>
                 <div className="checkbox">
-                    <input id="check8" className="" type="checkbox"/>
-                    <label htmlFor="check8">Utilitário</label>
+                    <input id="check_utilitario" className="" type="checkbox"/>
+                    <label htmlFor="check_utilitario">Utilitário</label>
                 </div>
                 <div className="checkbox">
-                    <input id="check9" className="" type="checkbox"/>
-                    <label htmlFor="check9">Corrida</label>
+                    <input id="check_corrida" className="" type="checkbox"/>
+                    <label htmlFor="check_corrida">Corrida</label>
                 </div>
 
                 <div className="nav-categoria mb-1 mt-2">Gênero</div>
                 <div className="checkbox">
-                    <input id="check10" className="" type="checkbox"/>
-                    <label htmlFor="check10">Masculino</label>
+                    <input id="check_masculino" className="" type="checkbox"/>
+                    <label htmlFor="check_masculino">Masculino</label>
                 </div>
                 <div className="checkbox">
-                    <input id="check11" className="" type="checkbox"/>
-                    <label htmlFor="check11">Feminino</label>
+                    <input id="check_feminino" className="" type="checkbox"/>
+                    <label htmlFor="check_feminino">Feminino</label>
                 </div>
                 <div className="checkbox">
-                    <input id="check12" className="" type="checkbox"/>
-                    <label htmlFor="check12">Unisex</label>
+                    <input id="check_unisex" className="" type="checkbox"/>
+                    <label htmlFor="check_unisex">Unisex</label>
                 </div>
                 <div className="nav-categoria mb-1 mt-2">Estado</div>
                 <div className="radio">
-                    <input id="radio1" name="estado" value="1" type="radio"/>
-                    <label htmlFor="radio1">Novo</label>
+                    <input id="radio_novo" name="estado" value="1" type="radio"/>
+                    <label htmlFor="radio_novo">Novo</label>
                 </div>
                 <div className="radio">
-                    <input id="radio2" name="estado" value="2" type="radio"/>
-                    <label htmlFor="radio2">Usado</label>
+                    <input id="radio_usado" name="estado" value="2" type="radio"/>
+                    <label htmlFor="radio_usado">Usado</label>
                 </div>
-                {/* 
-    
-
-                <div><input className="form-check-input" type="radio" /> Novo</div>
-                <div><input className="form-check-input" type="radio" /> Usado</div> */}
+                
             </div>
         </nav>
         
