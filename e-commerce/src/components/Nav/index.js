@@ -2,7 +2,8 @@
 
 import { Link, useLocation } from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.css"
-import "./../../css"
+import "./../../css/app.css"
+import React from "react";
 
 export default function Nav(){
     return(
@@ -16,18 +17,13 @@ export default function Nav(){
                 </div>
                 
                 <div className="d-flex align-items-center">
+                <div>
                 <input  placeholder="Pesquisar Produto" ></input>
-                <div className="">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="9.76663" cy="9.76663" r="8.98856" stroke="#666666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-
-                <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.01831 1.48523L4.54234 5.0001" stroke="#666666" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+                <span class="material-icons">
+                search
+                </span>
                 </div>
-               
-
+        
                 <a href="">Cadastre-se</a>
                 <button >
                 <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,6 +31,11 @@ export default function Nav(){
                 </svg>
                 </button>
                 </div>
+                <a href="">Home</a>
+                <a href="">Produtos</a>
+                <a href="">Categorias</a>
+                <a href="">MeusPedidos</a>
+                
             </div>
 
 
