@@ -1,1 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.bannerf {
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 1440px;
+    height: 553px;
+    left: 0px;
+    top: 2737px;
+}
+
+.ofertat {
+    position: absolute;
+    width: 589px;
+    height: 341px;
+    left: 692px;
+    top: 2843px;
+}
