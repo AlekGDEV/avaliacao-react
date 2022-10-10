@@ -16,3 +16,19 @@
     left: 692px;
     top: 2843px;
 }
+
+.veroferta {
+    background: #C92071;
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+    left: 0px;
+    top: 0px;
+    border: none;
+    color: #F5F5F5
+}
+
+.p {
+    color:#C92071
+
+}
