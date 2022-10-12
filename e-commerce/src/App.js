@@ -19,7 +19,6 @@ export default function App() {
             <Route path="meusPedidos" element={<MeusPedidos/>}></Route>
         </Routes>
       </BrowserRouter> */}
-      <BannerF />
       <Footer />
     </div>
   )

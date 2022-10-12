@@ -6,12 +6,16 @@
 
 .conteudo {
     display: flex;
-    
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 72px;
+
 }
 
 .sobre {
     display: flex;
-    
+    justify-content: space-around;
+    flex-direction: column;
     color: white;
 }
 

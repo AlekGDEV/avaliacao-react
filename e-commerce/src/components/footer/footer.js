@@ -5,7 +5,8 @@ export default function Footer() {
             <div className="conteudo">
                 <div className="sobre">
                     <h1>Digital Store</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi quo laboriosam debitis error sint esse cumque officia quasi, laborum molestias blanditiis odit reiciendis quam est velit eius. Dolore, quo?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <img src="footerimg/face.png" alt="face" />
                 </div>
                 <div className="informacao">
                     <h1>Informação</h1>
