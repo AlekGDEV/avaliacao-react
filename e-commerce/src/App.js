@@ -4,11 +4,12 @@ import Home from "./Pages/Home"
 import Produtos from "./Pages/Produtos"
 import Categorias from "./Pages/Categorias"
 import MeusPedidos from "./Pages/MeusPedidos"
+import Section from "./Pages/Home/index.js"
 
 export default function App() {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Nav/>
           <Routes>
             <Route path="/" element={<Home/>}></Route>
@@ -16,7 +17,8 @@ export default function App() {
             <Route path="categorias" element={<Categorias/>}></Route>
             <Route path="meusPedidos" element={<MeusPedidos/>}></Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Section/>
     </div>
   )
 }
