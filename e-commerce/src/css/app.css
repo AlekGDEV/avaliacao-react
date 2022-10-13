@@ -2,19 +2,14 @@
 
 .bannerf {
     background-color: #FFFFFF;
-    position: absolute;
     width: 1440px;
     height: 553px;
-    left: 0px;
-    top: 2737px;
 }
 
 .ofertat {
-    position: absolute;
     width: 589px;
     height: 341px;
-    left: 692px;
-    top: 2843px;
+
 }
 
 .veroferta {

@@ -21,6 +21,7 @@
 
 .informacao {
     color: white;
+
 }
 
 .categorias {
@@ -32,5 +33,7 @@
 }
 
 .dc {
+    display: flex;
+    justify-content: center;
     color: white;
 }

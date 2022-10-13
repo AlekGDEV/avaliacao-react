@@ -1,4 +1,5 @@
 import "../../components/footer/footer.css"
+import Face from "../footer/footerimg/face.png"
 export default function Footer() {
     return(
         <footer className="footer">
@@ -6,7 +7,7 @@ export default function Footer() {
                 <div className="sobre">
                     <h1>Digital Store</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <img src="footerimg/face.png" alt="face" />
+                    <img src={<Face/>} alt="face" />
                 </div>
                 <div className="informacao">
                     <h1>Informação</h1>
@@ -30,9 +31,9 @@ export default function Footer() {
                     <p>Av. Santos Dumont, 1510- 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
                     <p>(85) 3051-3411</p>
                 </div>
-                <hr />
-                <p className="dc">@ 2022 Digital College</p>
             </div>
+            <hr />
+            <p className="dc">@ 2022 Digital College</p>
         </footer>
     )
 }
