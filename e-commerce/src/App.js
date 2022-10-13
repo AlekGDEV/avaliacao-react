@@ -4,7 +4,7 @@ import Home from "./Pages/Home"
 //import Produtos from "./Pages/Produtos"
 //import Categorias from "./Pages/Categorias"
 //import MeusPedidos from "./Pages/MeusPedidos"
-import BannerF from "./Pages/Home";
+import BannerF from "./components/Bannerf/index";
 import Footer from "./components/footer/footer";
 
 export default function App() {

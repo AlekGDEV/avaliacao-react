@@ -9,14 +9,19 @@
     margin-left: 100px;
     margin-right: 100px;
     padding-top: 72px;
-
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .sobre {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
+    gap: 10px;
     color: white;
+}
+
+.descricao {
+    width: 307px;
 }
 
 .informacao {
@@ -32,8 +37,29 @@
     color: white;
 }
 
+.local {
+    width: 231px;
+}
+
 .dc {
     display: flex;
     justify-content: center;
     color: white;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.titulo {
+    font-size: 18px;
+    padding-bottom: 28px;
+}
+
+.hr {
+    color: #ffffff;
+    width: 87%;
+    margin: 0 auto;
+}
+
+.texto:hover {
+    cursor: pointer;
 }
