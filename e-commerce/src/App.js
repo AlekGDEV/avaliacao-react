@@ -1,4 +1,4 @@
-import Card from "./components/main/Card/card";
+import Article from "./components/main/Article";
 export default function App() {
   return (
     <div>
@@ -12,10 +12,10 @@ export default function App() {
         <section>
 
         </section>
-        <Card nome="Novo Drop Supreme"></Card>
-        <article>
-
-        </article>
+        <Article/>
+        
+        <section>
+        </section>
       </main>
 
       <footer>

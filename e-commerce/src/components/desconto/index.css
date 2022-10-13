@@ -1,0 +1,13 @@
+.desconto{
+    position:absolute;
+    padding-top: 5px;
+    text-align: center;
+    width:60px;
+    height: 20px;
+    border: none;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 10px;
+    background: #E7FF86;
+    border-radius: 29px;
+}
