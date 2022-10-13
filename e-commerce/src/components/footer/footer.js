@@ -2,14 +2,16 @@ import "../../components/footer/footer.css"
 import Face from "../footer/footerimg/face.png"
 import insta from "../footer/footerimg/insta.png"
 import tt from "../footer/footerimg/tt.png"
+import logo from "../footer/footerimg/logo.png"
+
 export default function Footer() {
     return(
         <footer className="footer">
             <div className="conteudo">
                 <div className="sobre">
-                    <h1>Digital Store</h1>
+                    <h1><img src={logo} /> Digital Store</h1>
                     <p className="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <div>
+                    <div className="redes">
                         <img src={Face} alt="face" />
                         <img src={insta} alt="insta" />
                         <img src={tt} alt="tt" /> 

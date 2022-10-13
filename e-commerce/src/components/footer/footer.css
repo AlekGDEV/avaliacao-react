@@ -63,3 +63,8 @@
 .texto:hover {
     cursor: pointer;
 }
+
+.redes {
+    display: flex;
+    gap: 35.5px;
+}
