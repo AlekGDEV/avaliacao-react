@@ -16,7 +16,7 @@
 
 .container2{
   margin-top: 20px;
-  margin-left: 45px;
+  margin-left: 35px;
 }
 
 .imagem { 
@@ -32,18 +32,17 @@
 position: absolute; }
 
 .botao-de-compra { 
-  margin-top: 145px;
+  margin-top: 140px;
   position: absolute;
   grid-area: botao-de-compra;}
 
 .h3Title {
-  position: absolute;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 36px;
-  letter-spacing: 1px;
+  
 }
 
 
