@@ -8,23 +8,18 @@ export default function Card(props) {
           <div class="imagem">
           <img className="imagem" src={props.imgprod} alt="produto" />  
            </div>
-           
-          <div class="texto1">
+         
+         <div className="container2">
+             <div class="texto1">
              <BotaoDesc desconto="30% OFF" />
              <h3 className="h3Title"> {props.nome} </h3>
-          </div>
-          <div class="botao-de-compra">
+             </div>
+             <div class="botao-de-compra">
              <Comprar />
-           </div>
-           
+              </div>
+         </div>  
            
       </div> 
     )
-  
-
-
-
-
-
 
  }

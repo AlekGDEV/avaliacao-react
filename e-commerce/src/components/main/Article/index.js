@@ -131,19 +131,23 @@ export default function Article() {
   let phone =
     "https://uploaddeimagens.com.br/images/004/058/817/thumb/phone1.png?1665622281";
   return (
-    <article>
+    <article style={{
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+    }
+    }>
       <p style={estilo}>Coleções de Destaque</p>
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>
         <Card nome="Novo Drop Supreme" imgprod={supreme} />
         <Card nome="Coleção Adidas" imgprod={adidas} />
-        <Card nome="Headphones" imgprod={phone} />
+        <Card nome="Novo Beats Bass" imgprod={phone} />
       </div>
       <div>
         <p style={estilo2}>Coleções de Destaque</p>
         <div style={{ 
          display: "flex",
-         marginLeft: "33%",
-         marginRight: "33%", }}>
+         justifyContent: "center" }}>
           <Categoria conteudo={camisa} nome="Camisetas" />
           <Categoria conteudo={calca} nome="Calças" />
           <Categoria conteudo={calca} nome="Bonés" />
