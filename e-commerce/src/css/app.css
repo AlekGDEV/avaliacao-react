@@ -1,36 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .buscar{
-    position: absolute;
-width: 24px;
-height: 24px;
-left: 903px;
-top: 52px;
+    background-color: #9f9f9f;
+    display: flex;
+    align-items: center;
 
-opacity: 0.5;
-border-radius: 8px;
 }
-
-.elipse{
-    position: absolute;
-left: 11.58%;
-right: 13.52%;
-top: 11.58%;
-bottom: 13.52%;
-
-/* dark-gray-3 */
-
-border: 1.5px solid #666666;
-};
-
-.line{
-position: absolute;
-left: 75.08%;
-right: 10.24%;
-top: 77.02%;
-bottom: 8.33%;
-
-/* dark-gray-3 */
-
-border: 1.5px solid #666666;
-};
+.inputBuscar{
+    border: none;
+    background-color: #9f9f9f;
+    outline: none;
+    
+}
