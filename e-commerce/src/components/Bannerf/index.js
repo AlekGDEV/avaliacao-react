@@ -5,7 +5,7 @@ import Tenis from "../Bannerf/Laye1.png"
 export default function BannerF() {
     return(
         <div className="bannerf">
-            <div>
+            <div className="elipse">
                 <img src={Tenis} alt="tenis"/>
             </div>
             <div className="ofertat">

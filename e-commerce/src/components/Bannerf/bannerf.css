@@ -30,6 +30,12 @@
 
 }
 
-.Jordan {
-    
+.elipse {
+    position: relative;
+    width: 466px;
+    height: 466px;
+    border-radius: 50%;
+
+
+background: linear-gradient(180deg, rgba(66, 0, 255, 0.25) -40.67%, rgba(255, 255, 255, 0) 100%);
 }
