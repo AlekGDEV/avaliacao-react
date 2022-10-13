@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.css"
 import "./style.css"
 
 
-export default function Navbar () 
+export default function FiltroProdutos () 
 {
     return ( 
         
