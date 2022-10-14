@@ -12,9 +12,9 @@ export default function Footer() {
                     <h1><img src={logo} /> Digital Store</h1>
                     <p className="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                     <div className="redes">
-                        <img src={Face} alt="face" />
-                        <img src={insta} alt="insta" />
-                        <img src={tt} alt="tt" /> 
+                        <a href="https://www.facebook.com/digitalcollegebr/">  <img src={Face} alt="face" /> </a>
+                        <a href="https://www.instagram.com/digitalcollegebr/"> <img src={insta} alt="insta" /> </a>
+                        <a href="https://mobile.twitter.com/eaicollegers">   <img src={tt} alt="tt" /> </a>
                     </div>
                 </div>
                 <div className="informacao">
