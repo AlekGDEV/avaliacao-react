@@ -9,14 +9,13 @@ export default function App() {
   return (
     <div>
        <BrowserRouter>
-        <Nav>
+        <Nav/>
             <Routes>
             <Route path="/" element={<Home/>}></Route>
-            <Route path="/Produtos" element={<Produtos/>}></Route>
-            <Route path="/Categorias" element={<Categorias/>}></Route>
-            <Route path="/MeusPedidos" element={<MeusPedidos/>}></Route>
+            <Route path="/produtos" element={<Produtos/>}></Route>
+            <Route path="/categorias" element={<Categorias/>}></Route>
+            <Route path="/meus-pedidos" element={<MeusPedidos/>}></Route>
             </Routes>
-        </Nav>
        </BrowserRouter>
 
     </div>
