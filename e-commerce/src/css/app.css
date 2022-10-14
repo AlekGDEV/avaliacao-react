@@ -1,34 +1,40 @@
-.agrupar{
+.container{
     display: flex;
     flex-wrap: wrap;
+    /* align-items: center; */
+    
+}
+.elementos{
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    gap: 130px;
 }
 .logo{
     margin-left: 10%;
     display: flex;
     align-items: center;
-    gap:8px
+    gap:8px;
+    flex-grow:3;
 
 }
 .textLogo{
     color: #C92071;
+    flex:none
 }
 .navegacao{
     display: flex;
     align-items: center;
-    padding-right: 20%;
-    gap:60px
+    gap:40px;
+    flex-grow: 9;
     
 }
 .buscar{
-    
     padding:10px;
     background-color: #f5f5f5;
     display: flex;
     gap:300px;
     align-items: center;
+    border-radius: 5px;
 
 }
 .inputBuscar{
@@ -37,7 +43,23 @@
     outline: none;
     
 }
-.divMenor{
+.linkCadastrar{
+    flex: none;
+    color: black;
+}
+.entrar{
+    background-color: #C92071;
+    color: #F5F5F5;
+    border: none;
+    border-radius: 10px;
+    width: 114px;
+    height: 40px;
+}
+.botaoCarrinho{
+    border: none;
+    background-color: #ffffff;
+}
+.divLinks{
     display: block;
     width: 100%;
 }
