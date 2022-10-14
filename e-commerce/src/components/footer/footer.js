@@ -9,7 +9,10 @@ export default function Footer() {
         <footer className="footer">
             <div className="conteudo">
                 <div className="sobre">
-                    <h1><img src={logo} /> Digital Store</h1>
+                    <div className="dclogo">
+                        <img src={logo} /> 
+                        <h1 className="digistore"> Digital Store</h1>
+                    </div>
                     <p className="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                     <div className="redes">
                         <a href="https://www.facebook.com/digitalcollegebr/">  <img src={Face} alt="face" /> </a>
@@ -17,7 +20,7 @@ export default function Footer() {
                         <a href="https://mobile.twitter.com/eaicollegers">   <img src={tt} alt="tt" /> </a>
                     </div>
                 </div>
-                <div className="informacao">
+                <div className="categorias">
                     <h1 className="titulo">Informação</h1>
                     <p className="texto">Sobre Drip Store</p>
                     <p className="texto">Segurança</p>
@@ -34,7 +37,7 @@ export default function Footer() {
                     <p className="texto">Headphones</p>
                     <p className="texto">Tênis</p>
                 </div>
-                <div className="contato">
+                <div className="categorias">
                     <h1 className="titulo">Contato</h1>
                     <p className="local">Av. Santos Dumont, 1510- 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
                     <p>(85) 3051-3411</p>

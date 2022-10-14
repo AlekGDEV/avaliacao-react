@@ -20,21 +20,31 @@
     color: white;
 }
 
-.descricao {
-    width: 307px;
+.dclogo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.informacao {
-    color: white;
+.digistore {
+font-weight: 600;
+letter-spacing: -0.01em;
 
+}
+
+.descricao {
+    width: 307px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .categorias {
     color: white;
-}
-
-.contato {
-    color: white;
+    font-family: 'Inter';
+    font-style: normal;
 }
 
 .local {
@@ -47,6 +57,10 @@
     color: white;
     padding-top: 25px;
     padding-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
 }
 
 .titulo {
