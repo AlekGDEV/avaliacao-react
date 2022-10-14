@@ -1,12 +1,13 @@
-//Camylla e Erika 
-
 import { Link, useLocation } from "react-router-dom"
-// import "bootstrap/dist/css/bootstrap.css"
 import "./../../css/app.css"
 import logoSimble from "./img/Vector.png"
 import search from "./img/Search.png"
 import carrinho from "./img/carrinho.png"
 import React from "react";
+import Categorias from "../../Pages/Categorias"
+import Home from "../../Pages/Home"
+import Produtos from "../../Pages/Produtos"
+import MeusPedidos from "../../Pages/MeusPedidos"
 
 export default function Nav(){
     return(
@@ -33,12 +34,13 @@ export default function Nav(){
                 
 
                 <div className="divLinks">
-                    <a className="links" href="">Home</a>
-                    <a className="links" href="">Produtos</a>
-                    <a className="links" href="">Categorias</a>
-                    <a className="links" href="">Meus Pedidos</a>
+                    <a className="links" Link={<Home/>} href="">Home</a>
+                    <a className="links" Link={<Produtos/>} href="">Produtos</a>
+                    <a className="links" Link={<Categorias/>} href="">Categorias</a>
+                    <a className="links" Link={<MeusPedidos/>} href="">Meus Pedidos</a>
+    
                 </div>
-
+                
         </nav>
     )
 }
