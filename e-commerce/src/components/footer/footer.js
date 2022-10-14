@@ -20,28 +20,31 @@ export default function Footer() {
                         <a href="https://mobile.twitter.com/eaicollegers">   <img src={tt} alt="tt" /> </a>
                     </div>
                 </div>
-                <div className="categorias">
-                    <h1 className="titulo">Informação</h1>
-                    <p className="texto">Sobre Drip Store</p>
-                    <p className="texto">Segurança</p>
-                    <p className="texto">Wishlist</p>
-                    <p className="texto">Blog</p>
-                    <p className="texto">Trabalhe conosco</p>
-                    <p className="texto">Meus pedidos</p>
+                <div className="box">
+                    <div className="informacao">
+                        <h1 className="titulo">Informação</h1>
+                        <p className="texto">Sobre Drip Store</p>
+                        <p className="texto">Segurança</p>
+                        <p className="texto">Wishlist</p>
+                        <p className="texto">Blog</p>
+                        <p className="texto">Trabalhe conosco</p>
+                        <p className="texto">Meus pedidos</p>
+                    </div>
+                    <div className="categorias">
+                        <h1 className="titulo">Categorias</h1>
+                        <p className="texto">Camisetas</p>
+                        <p className="texto">Calças</p>
+                        <p className="texto">Bonés</p>
+                        <p className="texto">Headphones</p>
+                        <p className="texto">Tênis</p>
+                    </div>
+                    <div className="contato">
+                        <h1 className="titulo">Contato</h1>
+                        <p className="local">Av. Santos Dumont, 1510- 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
+                        <p>(85) 3051-3411</p>
                 </div>
-                <div className="categorias">
-                    <h1 className="titulo">Categorias</h1>
-                    <p className="texto">Camisetas</p>
-                    <p className="texto">Calças</p>
-                    <p className="texto">Bonés</p>
-                    <p className="texto">Headphones</p>
-                    <p className="texto">Tênis</p>
                 </div>
-                <div className="categorias">
-                    <h1 className="titulo">Contato</h1>
-                    <p className="local">Av. Santos Dumont, 1510- 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
-                    <p>(85) 3051-3411</p>
-                </div>
+
             </div>
             <hr className="hr" />
             <span className="dc">@ 2022 Digital College</span>

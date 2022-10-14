@@ -22,13 +22,21 @@
 
 .dclogo {
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 8px;
+    padding-bottom: 34px;
+    margin-right: 205px;
 }
 
 .digistore {
-font-weight: 600;
-letter-spacing: -0.01em;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.3951px;
+    line-height: 32px;
+    /* identical to box height */
 
 }
 
@@ -41,10 +49,29 @@ letter-spacing: -0.01em;
     line-height: 26px;
 }
 
+.box {
+    display: flex;
+    gap: 44px;
+}
+
+.informacao {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+
+}
 .categorias {
     color: white;
     font-family: 'Inter';
     font-style: normal;
+}
+
+.contato {
+    
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+
 }
 
 .local {
