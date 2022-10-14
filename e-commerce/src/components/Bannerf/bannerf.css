@@ -3,10 +3,13 @@
 .bannerf {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #FFFFFF;
-    gap: 20px
+    gap: 200px;
+    padding-bottom: 106px;
 
 }
+
 
 .ofertat {
     width: 589px;
@@ -26,8 +29,34 @@
 }
 
 .p {
-    color:#C92071
+    color:#C92071;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 17px;
+}
 
+.Jordan {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #474747;
+    padding-bottom: 20px;
+}
+
+.lorem {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
 }
 
 .elipse {
@@ -35,7 +64,16 @@
     width: 466px;
     height: 466px;
     border-radius: 50%;
+    background: linear-gradient(180deg, rgba(66, 0, 255, 0.25) -40.67%, rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    top: 60px;
 
+}
 
-background: linear-gradient(180deg, rgba(66, 0, 255, 0.25) -40.67%, rgba(255, 255, 255, 0) 100%);
+.tenis {
+    
 }
