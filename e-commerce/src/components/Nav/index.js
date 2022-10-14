@@ -33,10 +33,10 @@ export default function Nav(){
                 
 
                 <div className="divLinks">
-                    <a href="">Home</a>
-                    <a href="">Produtos</a>
-                    <a href="">Categorias</a>
-                    <a href="">MeusPedidos</a>
+                    <a className="links" href="">Home</a>
+                    <a className="links" href="">Produtos</a>
+                    <a className="links" href="">Categorias</a>
+                    <a className="links" href="">Meus Pedidos</a>
                 </div>
 
         </nav>

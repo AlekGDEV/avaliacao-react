@@ -1,7 +1,7 @@
 .container{
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
+    gap:32px;
     
 }
 .elementos{
@@ -45,7 +45,8 @@
 }
 .linkCadastrar{
     flex: none;
-    color: black;
+    color:  #474747;
+
 }
 .entrar{
     background-color: #C92071;
@@ -60,6 +61,13 @@
     background-color: #ffffff;
 }
 .divLinks{
-    display: block;
+    display: flex;
+    margin-left: 9%;
     width: 100%;
+    gap: 32px;
+}
+.links{
+    text-decoration-line: none;
+    color:  #474747;
+
 }
