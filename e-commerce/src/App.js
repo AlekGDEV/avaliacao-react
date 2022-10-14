@@ -12,11 +12,11 @@ export default function App() {
        <BrowserRouter>
         <Nav/>
             <Routes>
-            <Route path="/" element={<Home/>}></Route>
-            <Route path="/produtos" element={<Produtos/>}></Route>
-            <Route path="/categorias" element={<Categorias/>}></Route>
-            <Route path="/meus-pedidos" element={<MeusPedidos/>}></Route>
-            <Route path="/meu-carrinho" element={<MeuCarrinho/>}></Route>
+              <Route path="/" element={<Home/>}></Route>
+              <Route path="/produtos" element={<Produtos/>}></Route>
+              <Route path="/categorias" element={<Categorias/>}></Route>
+              <Route path="/meus-pedidos" element={<MeusPedidos/>}></Route>
+              {/* <Route path="/meu-carrinho" element={<MeuCarrinho/>}></Route> */} {/* criar uma rota para "ver carrinho*/}
             </Routes>
        </BrowserRouter>
 

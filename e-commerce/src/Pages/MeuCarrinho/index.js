@@ -10,8 +10,11 @@ export default function MeuCarrinho(){
             flexDirection: 'column',
             position: 'absolute'
         }}>
-            <h1>Meu Carrinho</h1>
-            <span>Produto 1</span>
+            <span>Meu Carrinho</span>
+            <hr/>
+            <div>
+
+            </div>
             <span>Produto 2</span>
             <span>Valor total</span>
             <Link to="/meu-carrinho">
