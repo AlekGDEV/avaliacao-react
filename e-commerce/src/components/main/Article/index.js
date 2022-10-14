@@ -8,6 +8,8 @@ import Calca from "./svg/calca";
 
 export default function Article() {
 
+
+  ////imagens banners 
   let supreme =
     "https://uploaddeimagens.com.br/images/004/058/816/thumb/supreme.png?1665622252";
   let adidas =
