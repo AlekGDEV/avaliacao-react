@@ -4,7 +4,7 @@ import Home from "./Pages/Home"
 import Produtos from "./Pages/Produtos"
 import Categorias from "./Pages/Categorias"
 import MeusPedidos from "./Pages/MeusPedidos"
-import Section from "./Pages/Home/index.js"
+import Section from "./components/Section/index.js"
 
 export default function App() {
   return (
