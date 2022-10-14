@@ -38,11 +38,11 @@ export default function Footer() {
                         <p className="texto">Headphones</p>
                         <p className="texto">Tênis</p>
                     </div>
-                    <div className="contato">
+                </div>
+                <div className="contato">
                         <h1 className="titulo">Contato</h1>
                         <p className="local">Av. Santos Dumont, 1510- 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
                         <p>(85) 3051-3411</p>
-                </div>
                 </div>
 
             </div>
