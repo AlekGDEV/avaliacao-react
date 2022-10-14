@@ -4,6 +4,7 @@ import Home from "./Pages/Home"
 import Produtos from "./Pages/Produtos"
 import Categorias from "./Pages/Categorias"
 import MeusPedidos from "./Pages/MeusPedidos"
+import MeuCarrinho from "./Pages/MeuCarrinho/index.js";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
             <Route path="/produtos" element={<Produtos/>}></Route>
             <Route path="/categorias" element={<Categorias/>}></Route>
             <Route path="/meus-pedidos" element={<MeusPedidos/>}></Route>
+            <Route path="/meu-carrinho" element={<MeuCarrinho/>}></Route>
             </Routes>
        </BrowserRouter>
 
