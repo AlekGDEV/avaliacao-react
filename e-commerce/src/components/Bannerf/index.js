@@ -6,7 +6,7 @@ export default function BannerF() {
     return(
         <div className="bannerf">
             <div className="elipse">
-                <img src={Tenis} alt="tenis"/>
+                <img className="tenis" src={Tenis} alt="tenis"/>
             </div>
             <div className="ofertat">
                 <p className="p">Oferta especial</p>
