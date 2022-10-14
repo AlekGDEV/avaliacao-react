@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css"
 import "../../components/Bannerf/bannerf.css"
-import Tenis from "../Bannerf/Laye1.png"
+import Tenis from "../Bannerf/bannerimg/Laye1.png"
 
 export default function BannerF() {
     return(
