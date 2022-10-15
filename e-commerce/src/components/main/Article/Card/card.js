@@ -1,6 +1,6 @@
 // Alicia
-import Comprar from "../../comprar";
-import BotaoDesc from "../../desconto";
+import Comprar from "./comprar";
+import BotaoDesc from "./desconto";
 import "./index.css";
 export default function Card(props) {
   return (
@@ -18,8 +18,6 @@ export default function Card(props) {
              <Comprar />
               </div>
          </div>  
-           
       </div> 
     )
-
  }

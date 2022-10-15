@@ -1,5 +1,5 @@
-import Card from "../Card/card";
-import Categoria from "../Categorias/index";
+import Card from "./Card/card";
+import Categoria from "./Categorias/index";
 import Tenis from "./svg/tenis";
 import "./index.css";
 import Headphone from "./svg/headphone";
@@ -7,7 +7,6 @@ import Camisa from "./svg/camisa";
 import Calca from "./svg/calca";
 
 export default function Article() {
-
 
   ////imagens banners 
   let supreme =
@@ -17,7 +16,7 @@ export default function Article() {
   let phone =
     "https://uploaddeimagens.com.br/images/004/058/817/thumb/phone1.png?1665622281";
   return (
-    <article className="artic">
+    <article className="container-fluid artic">
       <p className="estilo">Coleções de Destaque</p>
       <div className="banners">
         <Card nome="Novo Drop Supreme" imgprod={supreme} />

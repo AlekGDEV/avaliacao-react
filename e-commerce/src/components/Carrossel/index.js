@@ -9,7 +9,7 @@ import './style.css';
 
 export default function Carrossel() {
   return (
-    <Carousel className="carousel-principal">
+    <Carousel className="container-fluid carousel-principal">
       <Carousel.Item className="divisao">
         <div style={{ backgroundImage: `url(${bg})` }} className="linha">
           <img className="circle" src={circle} alt="circle" />
