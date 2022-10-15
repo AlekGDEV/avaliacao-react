@@ -4,9 +4,11 @@ import Home from "./Pages/Home"
 import Produtos from "./Pages/Produtos"
 import Categorias from "./Pages/Categorias"
 import MeusPedidos from "./Pages/MeusPedidos"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
+    
     <div>
        <BrowserRouter>
         <Nav/>
@@ -17,9 +19,12 @@ export default function App() {
             <Route path="/meus-pedidos" element={<MeusPedidos/>}></Route>
             </Routes>
        </BrowserRouter>
-
+       
+       
     </div>
   )
 }
+
+
 
 
