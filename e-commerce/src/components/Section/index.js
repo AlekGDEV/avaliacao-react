@@ -1,6 +1,6 @@
 import React from "react";
 import { CardSection } from "./CardSection";
-import { Promocao } from "./CardSection/Promocao"
+// import { Promocao } from "./CardSection/Promocao"
 import "./index.css"
 
 export default function Section(){
@@ -13,14 +13,8 @@ export default function Section(){
                 </ul>
             </div>
             <div className="cards">
-                <div>
-                    <Promocao/>
-                    <CardSection/>
-                </div>
-                <div>
-                    <Promocao/>
-                    <CardSection/>
-                </div>
+                <CardSection desconto={true}/>
+                <CardSection desconto={true}/>
                 <CardSection/>
                 <CardSection/>
                 <CardSection/>
