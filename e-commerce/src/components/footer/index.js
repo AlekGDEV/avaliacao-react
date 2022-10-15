@@ -1,8 +1,8 @@
-import "../../components/footer/footer.css"
-import Face from "../footer/footerimg/face.png"
-import insta from "../footer/footerimg/insta.png"
-import tt from "../footer/footerimg/tt.png"
-import logo from "../footer/footerimg/logo.png"
+import "./index.css"
+import Face from "./footerimg/face.png"
+import insta from "./footerimg/insta.png"
+import tt from "./footerimg/tt.png"
+import logo from "./footerimg/logo.png"
 
 export default function Footer() {
     return(
@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="conteudo">
                 <div className="sobre">
                     <div className="dclogo">
-                        <img src={logo} /> 
+                        <img src={logo} alt=""/> 
                         <h1 className="digistore"> Digital Store</h1>
                     </div>
                     <p className="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>

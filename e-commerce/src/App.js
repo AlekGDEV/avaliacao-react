@@ -4,6 +4,7 @@ import Home from "./Pages/Home"
 import Produtos from "./Pages/Produtos"
 import Categorias from "./Pages/Categorias"
 import MeusPedidos from "./Pages/MeusPedidos"
+import Footer from "./components/Footer/index.js"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
@@ -13,11 +14,12 @@ export default function App() {
        <BrowserRouter>
         <Nav/>
             <Routes>
-            {/* <Route path="/" element={<Home/>}></Route> */}
-            <Route path="/produtos" element={<Produtos/>}></Route>
-            <Route path="/categorias" element={<Categorias/>}></Route>
-            <Route path="/meus-pedidos" element={<MeusPedidos/>}></Route>
+              <Route path="/" element={<Home/>}></Route>
+              <Route path="/produtos" element={<Produtos/>}></Route>
+              <Route path="/categorias" element={<Categorias/>}></Route>
+              <Route path="/meus-pedidos" element={<MeusPedidos/>}></Route>
             </Routes>
+        <Footer/>
        </BrowserRouter>
        
        
