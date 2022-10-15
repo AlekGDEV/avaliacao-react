@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.container{
+.section-container{
     display:flex;
     flex-direction: column;
-    width:80%;
+    width:82%;
+    margin: 0 auto;
     padding: 5px 0 5px 0;
+    background-color: #f9f8fe;
 }
 
 .titulos{
@@ -60,8 +62,10 @@
     transform: rotate(5deg);
 }
 
-.desconto{
+.desconto-section{
     position: absolute;
+    width: 100px;
+    height: 32px;
     margin: 20px 0 0 20px;
     padding: 5px 15px;
     background: #E7FF86;

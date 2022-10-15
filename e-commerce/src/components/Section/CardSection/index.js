@@ -4,7 +4,7 @@ import imagem from "./image.png"
 export function CardSection(props){
     const Desconto = () => {
         return(
-            <div className="desconto">
+            <div className="desconto-section">
                 <span className="span-desconto">30% OFF</span>
             </div>
         );

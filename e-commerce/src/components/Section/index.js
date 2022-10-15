@@ -5,7 +5,7 @@ import "./index.css"
 
 export default function Section(){
     return(
-        <section className="container">
+        <section className="section-container">
             <div className="header">
                 <ul className="titulos">
                     <li><span className="span-titulo">Produtos em alta</span></li>
