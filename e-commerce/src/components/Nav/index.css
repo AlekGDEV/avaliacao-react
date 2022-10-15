@@ -1,0 +1,166 @@
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 34px;
+}
+
+.elementos {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.logo {
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.textLogo {
+    width: 212px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.3951px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    color: #C92071;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-grow: 9;
+
+}
+
+.buscar {
+    padding: 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    width: 559px;
+    height: 60px;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.inputBuscar {
+    border: none;
+    flex: 1;
+    background-color: #f5f5f5;
+    outline: none;
+
+}
+
+.linkCadastrar {
+    flex: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.entrar {
+    background-color: #C92071;
+    color: #F5F5F5;
+    border: none;
+    border-radius: 10px;
+    width: 114px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.botaoCarrinho {
+    border: none;
+    background-color: #ffffff;
+}
+
+.divLinks {
+    display: flex;
+    margin-left: 124px;
+    width: 100%;
+    gap: 32px;
+}
+
+.links {
+    text-decoration-line: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+
+.links:focus{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #C92071;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .elementos{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    
+    }
+    
+    .textLogo {
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36.3951px;
+        line-height: 44px;
+        letter-spacing: -0.01em;
+        color: #C92071;
+    }
+    
+    .navegacao {
+        display: none;
+    }
+    
+    .buscar {
+        display: none;
+    }
+    
+    .inputBuscar {
+        display:none;
+    }
+    
+    .linkCadastrar {
+        display: none;
+    }
+    
+    .entrar {
+        display: none;
+    }
+
+    .botaoCarrinho{
+        display: block;
+    }
+}
