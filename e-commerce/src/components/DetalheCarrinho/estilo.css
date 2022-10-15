@@ -1,0 +1,128 @@
+body {
+    background-color: #f8f9fe;
+}
+
+.ico {
+    width: 652px;
+    height: 74px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #1F1F1F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.textoh3 {
+    width: 652px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #1F1F1F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+    gap: 20px;
+    position: absolute;
+    width: 838px;
+    height: 1048px;
+    left: 301px;
+    border-radius: 4px;
+    top: 242px;
+    background: #FFFFFF;
+
+}
+
+.inforPessoal {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.75px;
+    color: #474747;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.inforEntrega {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #474747;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.inforPagamento {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #474747;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.infor {
+    width: 45px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #8F8F8F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.backImg {
+    position: absolute;
+    width: 71.18px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+    background: #E2E3FF;
+    box-shadow: 0px 2.66916px 16.6822px rgba(0, 0, 0, 0.05);
+    border-radius: 2.66916px;
+}
+
+.frontImg {
+    position: absolute;
+    width: 50.63px;
+    height: 25.19px;
+    left: 10.22px;
+    top: 16.35px;
+    border-radius: 2.66916px;
+}

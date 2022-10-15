@@ -5,6 +5,8 @@ import Produtos from "./Pages/Produtos"
 import Categorias from "./Pages/Categorias"
 import MeusPedidos from "./Pages/MeusPedidos"
 import "bootstrap/dist/css/bootstrap.min.css";
+import PaginaCarrinho from "./Pages/PaginaCarrinho/index.js";
+
 
 export default function App() {
   return (
@@ -13,10 +15,11 @@ export default function App() {
        <BrowserRouter>
         <Nav/>
             <Routes>
-            <Route path="/" element={<Home/>}></Route>
+            {/*<Route path="/" element={<Home/>}></Route>*/ }
             <Route path="/produtos" element={<Produtos/>}></Route>
             <Route path="/categorias" element={<Categorias/>}></Route>
             <Route path="/meus-pedidos" element={<MeusPedidos/>}></Route>
+            <Route path="/pagina-carrinho"  element={<PaginaCarrinho/>}></Route>
             </Routes>
        </BrowserRouter>
        
