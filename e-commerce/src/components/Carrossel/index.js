@@ -6,7 +6,7 @@ import nike from './icons/nike.svg';
 
 import './style.css';
 
-export default function CarouselImagem() {
+export default function Carrossel() {
   return (
     <Carousel className="carousel-principal">
       <Carousel.Item>

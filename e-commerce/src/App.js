@@ -1,6 +1,5 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 import Nav from "./components/Nav/index.js";
-import Carousel from "./components/Carousel/index.js";
 import Home from "./Pages/Home"
 import Produtos from "./Pages/Produtos"
 import Categorias from "./Pages/Categorias"
@@ -21,9 +20,7 @@ export default function App() {
             </Routes>
        </BrowserRouter>
        
-       <div>
-   <Carousel />
-   </div>
+       
     </div>
   )
 }
