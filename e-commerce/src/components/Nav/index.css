@@ -1,15 +1,14 @@
-.container {
+.container-fluid {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
-    width: 90%;
-
+    margin-top: 34px;
 }
 
 .elementos {
     display: flex;
     align-items: center;
-    gap: 130px;
+    gap: 27px;
 }
 
 .logo {
@@ -17,19 +16,17 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    flex-grow: 3;
-
 }
 
 .textLogo {
-    font-family: 'Inter';
+    width: 212px;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36.3951px;
     line-height: 44px;
     letter-spacing: -0.01em;
     color: #C92071;
-    flex: none;
 }
 
 .navegacao {
@@ -44,7 +41,8 @@
     padding: 10px;
     background-color: #f5f5f5;
     display: flex;
-    width: 550px;
+    width: 559px;
+    height: 60px;
     align-items: center;
     border-radius: 5px;
 
@@ -60,7 +58,7 @@
 
 .linkCadastrar {
     flex: none;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -76,7 +74,7 @@
     border-radius: 10px;
     width: 114px;
     height: 40px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -90,17 +88,79 @@
 
 .divLinks {
     display: flex;
-    margin-left: 9%;
+    margin-left: 124px;
     width: 100%;
     gap: 32px;
 }
 
 .links {
     text-decoration-line: none;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #474747;
+}
+
+.links:focus{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #C92071;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .elementos{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    
+    }
+    
+    .textLogo {
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36.3951px;
+        line-height: 44px;
+        letter-spacing: -0.01em;
+        color: #C92071;
+    }
+    
+    .navegacao {
+        display: none;
+    }
+    
+    .buscar {
+        display: none;
+    }
+    
+    .inputBuscar {
+        display:none;
+    }
+    
+    .linkCadastrar {
+        display: none;
+    }
+    
+    .entrar {
+        display: none;
+    }
+
+    .botaoCarrinho{
+        display: block;
+    }
 }
