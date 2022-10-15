@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    padding: 5px 0 5px 0;
+}
+
+.titulos{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding:0;
+}
+
+.span-titulo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
+.a-titulo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    text-decoration: none;
+    color: #C92071;
+}
+
+.cards{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.lista{
+    list-style: none;
+    padding: 0;
+}
+
+.card-img{
+    background-color: #ffffff;
+    box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+    border-radius: 4px;
+    width: 292px;
+    height: 321px;
+}
+
+.img-card{
+    margin-top: 12%;
+    width: 248px;
+    height: 258px;
+    filter: drop-shadow(-3.61398px 4.51747px 6.51852px rgba(0, 0, 0, 0.08));
+    transform: rotate(5deg);
+}
+
+.desconto{
+    position: absolute;
+    margin: 20px 0 0 20px;
+    padding: 5px 15px;
+    background: #E7FF86;
+    border-radius: 29px;
+}
+
+.span-desconto{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.span-tipo{
+    padding-top: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #8F8F8F;
+}
+
+.span-produto{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747; 
+}
+
+.preco1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #8F8F8F;
+    text-decoration: line-through;
+}
+
+.preco2{
+    margin-left: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+}
