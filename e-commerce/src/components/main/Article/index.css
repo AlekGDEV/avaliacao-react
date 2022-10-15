@@ -1,0 +1,37 @@
+.artic{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+
+.estilo {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 36px;
+    letter-spacing: 1px;
+  }
+
+  .pcenter {
+    text-align: center;
+  }
+
+.categ{
+    display: flex;
+    justify-content: center;
+}
+ 
+.banners{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 992px) {
+  
+.banners{
+  display: flex;
+  flex-wrap: wrap;
+   gap: 10px;
+}
+}

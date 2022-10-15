@@ -1,0 +1,45 @@
+.container { 
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "texto1 texto1 imagem imagem"
+    "botao-de-compra botao-de-compra imagem imagem";
+  min-width: 405px;
+  min-height: 251px;
+  background: #d8e3f2;
+  border-radius: 8px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.container2{
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.imagem { 
+  grid-area: imagem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  position: absolute;
+  margin-top: 6px;
+  width: 200px;
+  height: 239px;  
+ }
+
+.texto1 { grid-area: texto1;
+position: absolute; }
+
+.botao-de-compra { 
+  margin-top: 140px;
+  position: absolute;
+  grid-area: botao-de-compra;}
+
+.h3Title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+}
