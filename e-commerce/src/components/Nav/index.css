@@ -2,7 +2,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
-    margin-top: 34px;
+    padding-top: 34px;
+    padding-bottom: 30px;
+    background-color: #fff;
 }
 
 .elementos {
@@ -82,8 +84,9 @@
 }
 
 .botaoCarrinho {
-    border: none;
-    background-color: #ffffff;
+    border:0;
+    background-color:#fff;
+    outline: none;
 }
 
 .divLinks {
@@ -104,13 +107,6 @@
 }
 
 .links:focus{
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.75px;
     color: #C92071;
     text-decoration: underline;
 }
