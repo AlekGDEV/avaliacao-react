@@ -38,6 +38,15 @@ export default function Finalizar() {
                     <label for="cvv" className="finfo">CVV *</label>
                     <input id="cvv" type="text" placeholder="CVV" className="finputDv" />
                 </form>
+                <div className="finalizar">
+                    <h1 className="ftitulo">Finalizar Compra <hr className="fhr"/></h1>
+                    <div className="preco">
+                        <span className="total">Total</span>
+                        <span className="valor">R$ 219,00</span>
+                    </div>
+                    <span className="parcelamento">ou 10x de R$ 21,00 sem juros</span>
+                    <input className="fsubmit" type="submit" value="Realizar Pagamento"/>
+                </div>
             </section>
         </main>
     )
