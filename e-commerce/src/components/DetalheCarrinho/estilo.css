@@ -2,127 +2,237 @@ body {
     background-color: #f8f9fe;
 }
 
+.spanAll {
+    width: 178px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #1F1F1F;
+}
+
+.linhaHr {
+    color: #474747;
+}
+
+.tituloSucesso {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .ico {
+
     width: 652px;
     height: 74px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 72px;
     line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 1px;
     color: #1F1F1F;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+
 }
 
 .textoh3 {
+
     width: 652px;
     height: 72px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 36px;
-    text-align: center;
     letter-spacing: 1px;
     color: #1F1F1F;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+
+
 }
 
 .fundo {
     display: flex;
     flex-direction: column;
-
     padding: 30px;
-    gap: 20px;
-    position: absolute;
-    width: 838px;
-    height: 1048px;
-    left: 301px;
-    border-radius: 4px;
-    top: 242px;
+    gap: 20px;    
+    border-radius: 4px;    
     background: #FFFFFF;
 
 }
 
 .inforPessoal {
 
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     text-align: left;
     letter-spacing: 0.75px;
     color: #474747;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.inforEntrega {
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #474747;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.inforPagamento {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #474747;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    display: flex;    
+    flex-direction: column;
 }
 
 .infor {
+
     width: 45px;
     height: 22px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: 0.25px;
     color: #8F8F8F;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    margin-right: 5px;
+
+
 }
 
 .backImg {
-    position: absolute;
+
     width: 71.18px;
     height: 58px;
-    left: 0px;
-    top: 0px;
     background: #E2E3FF;
     box-shadow: 0px 2.66916px 16.6822px rgba(0, 0, 0, 0.05);
     border-radius: 2.66916px;
 }
 
 .frontImg {
-    position: absolute;
+    margin: 15%;
+    margin-top: 20%;
     width: 50.63px;
     height: 25.19px;
-    left: 10.22px;
-    top: 16.35px;
     border-radius: 2.66916px;
+}
+
+.frame53 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 778px;
+    height: 58px;
+
+}
+
+.textInfor {
+
+    width: 317.82px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+
+}
+
+.fundoTotal {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 778px;
+    height: 100px;
+    background: rgba(246, 170, 28, 0.05);
+    border: 1px solid rgba(246, 170, 28, 0.15);
+    border-radius: 4px;
+    flex: none;
+    align-self: stretch;
+
+}
+
+.total {
+
+    width: 62px;
+    height: 38px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+
+}
+
+.totalTotal {
+
+    width: 125px;
+    height: 38px;
+    font-family: 'Inter' sans-serif;    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+
+}
+
+.parcela {
+
+    width: 738px;
+    height: 22px;
+    font-family: 'Inter' sans-serif;    
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 1px;
+    color: #8F8F8F;
+}
+
+.totalPreco {
+    display: flex;
+    justify-content: space-between;
+    gap: 556px;
+}
+
+.boleto {
+
+    margin: 0 auto;
+    width: 128px;
+    height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    text-decoration-line: underline;
+    color: #474747;
+
+}
+
+.buttonHome {
+
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    border: none;
+    background: #F6AA1C;
+    color: #f5f5f5;
+}
+
+.fundoButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    background: #F6AA1C;
+    border-radius: 8px;
+    width: 778px;
+
+}
+.detalhes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+
 }
