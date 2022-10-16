@@ -5,7 +5,7 @@ import Produtos from "./Pages/Produtos"
 import Categorias from "./Pages/Categorias"
 import MeusPedidos from "./Pages/MeusPedidos"
 import Footer from "./components/footer/index.js"
-import Finalizar from "./Pages/FiinalizarCrompa/index.js";
+import Finalizar from "./Pages/FinalizarCrompa/index.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 

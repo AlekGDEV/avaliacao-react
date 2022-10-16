@@ -1,3 +1,8 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
 .fc {
     margin-left: 101px;
     margin-top: 60px;
@@ -143,5 +148,110 @@
     text-align: center;
     letter-spacing: 0.75px;
     color: #F5F5F5;
+}
 
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 20px;
+    width: 468px;
+    height: 540px;
+    top: 310px;
+    margin-right: 101px;
+    margin-left: 10px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 71.18px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+
+    background: #E2E3FF;
+    box-shadow: 0px 2.66916px 16.6822px rgba(0, 0, 0, 0.05);
+    border-radius: 2.66916px;
+}
+
+.primeira {
+    display: flex;
+    gap: 20px;
+}
+
+.ftexto {
+    width: 317.82px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+}
+
+.fhr2 {
+    width: 408px;
+    height: 0px;
+    border: 1px solid #CCCCCC;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.finformacoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.fconteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subtotal {
+    display: flex;
+    gap: 280px;
+}
+
+.frete {
+    display: flex;
+    gap: 318px;
+}
+
+.fdesconto {
+    display: flex;
+    gap: 278px;
+}
+
+.textoCard {
+     font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #8F8F8F;
+}
+
+.valorCard {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #1F1F1F;
 }
