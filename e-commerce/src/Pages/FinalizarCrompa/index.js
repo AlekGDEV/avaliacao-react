@@ -73,6 +73,14 @@ export default function Finalizar() {
                             <span className="valorCard">R$ 30,00</span>
                         </div>
                     </div>
+
+                    <div className="infofinal">
+                        <span className="ftotal">Total</span>
+                        <span className="fvalor">R$ 219,00</span>
+                        <span className="fparcelamento">ou 10x de R$ 21,00 sem juros</span>
+                    </div>
+
+                    <input className="ffsubmit" type="submit" value="Realizar Pagamento"/>
                 </aside>
             </section>
         </main>
