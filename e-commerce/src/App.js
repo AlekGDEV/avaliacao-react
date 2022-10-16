@@ -4,7 +4,7 @@ import Home from "./Pages/Home"
 import Produtos from "./Pages/Produtos"
 import Categorias from "./Pages/Categorias"
 import MeusPedidos from "./Pages/MeusPedidos"
-import Footer from "./components/Footer/index.js"
+import Footer from "./components/footer/index.js"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
