@@ -1,11 +1,11 @@
 .desconto{
     position:absolute;
-    padding: 5px 10px;
+    padding: 5px 15px;
     text-align: center;
-    width:70px;
-    height: 20px;
+    width: 96px;
+    height: 32px;   
     border: none;
-    font-family: 'Inter';
+    font-family: 'Inter',sans-serif;
     font-weight: bold;
     font-size: 14px;
     background: #E7FF86;

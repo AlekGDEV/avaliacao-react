@@ -1,6 +1,5 @@
 .carousel-principal {
     height: 681px;    
-    margin-top: 20px;
 }
 
 .linha{
@@ -103,4 +102,18 @@
     border-bottom: 10px solid transparent;
     opacity: .5;
     transition: opacity .6s ease;
+}
+
+.carousel-control-prev{
+    pointer-events: none!important;
+}
+.carousel-control-prev-icon{
+    display: none!important;
+}
+
+.carousel-control-next{
+    pointer-events: none!important;
+}
+.carousel-control-next-icon{
+    display: none!important;
 }

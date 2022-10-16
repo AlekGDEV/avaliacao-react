@@ -1,6 +1,6 @@
 import "./index.css";
 export default function Comprar(){
     return(
-        <button className="btn">Comprar</button>
+        <button className="bttn">Comprar</button>
     )
 }

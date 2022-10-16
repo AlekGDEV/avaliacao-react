@@ -28,7 +28,7 @@ export default function Nav(){
                     </button>
                 </div>
             </div>
-            
+
             <div className="divLinks">
                 <Link to="/" className="links" >Home</Link>
                 <Link to="/produtos" className="links" >Produtos</Link>

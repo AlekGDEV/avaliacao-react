@@ -1,4 +1,4 @@
-.container { 
+.container1 { 
    display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -28,26 +28,24 @@
   height: 239px;  
  }
 
-.texto1 { grid-area: texto1;
-position: absolute; }
+.titulo-card {
+  margin-top: 15px;
+  width:176px;
+  height:72px;
+  grid-area: titulo;
+  position: absolute; 
+}
 
 .botao-de-compra { 
-  margin-top: 140px;
+  margin-top: 145px;
   position: absolute;
   grid-area: botao-de-compra;}
 
 .h3Title {
-  font-family: "Inter";
+  margin-top:39px;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 36px;
-  
 }
-
-
-/* .imagem  {  
-  height: 130.19px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-   transform: matrix(0.94, -0.39, 0.32, 0.93, 0, 0); 
-} */
