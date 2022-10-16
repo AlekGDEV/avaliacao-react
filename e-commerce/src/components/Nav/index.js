@@ -8,7 +8,7 @@ import React from "react";
 
 export default function Nav(){
     return(
-        <nav className="container">
+        <nav className="container-fluid">
             <div className="elementos">
                 <div className="logo">
                    <img src={logoSimble}></img>
@@ -28,15 +28,13 @@ export default function Nav(){
                     </button>
                 </div>
             </div>
-                
 
-                <div className="divLinks">
-                    <Link to="/" className="links" >Home</Link>
-                    <Link to="/produtos" className="links" >Produtos</Link>
-                    <Link to="/categorias" className="links">Categorias</Link>
-                    <Link to="/meus-pedidos" className="links" >Meus Pedidos</Link>
-    
-                </div>
+            <div className="divLinks">
+                <Link to="/" className="links" >Home</Link>
+                <Link to="/produtos" className="links" >Produtos</Link>
+                <Link to="/categorias" className="links">Categorias</Link>
+                <Link to="/meus-pedidos" className="links" >Meus Pedidos</Link>
+            </div>
                 
         </nav>
     )
