@@ -6,7 +6,8 @@ import tenis from "./img/tenis.svg"
 
 export default function DetalheCarrinho() {
     return (
-        <div className='detalhes'>
+        
+        <div className='detalhes container-fluid' >
             <div className='fundo'>
                 <div className='tituloSucesso'>
                     <div className="ico">🎉</div>

@@ -54,9 +54,11 @@ body {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    gap: 20px;    
-    border-radius: 4px;    
+    width: 50%;
+    gap: 20px;
+    border-radius: 4px;
     background: #FFFFFF;
+    margin: 0 auto;
 
 }
 
@@ -69,7 +71,7 @@ body {
     text-align: left;
     letter-spacing: 0.75px;
     color: #474747;
-    display: flex;    
+    display: flex;
     flex-direction: column;
 }
 
@@ -134,8 +136,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px;
-    width: 778px;
+    padding: 20px;    
     height: 100px;
     background: rgba(246, 170, 28, 0.05);
     border: 1px solid rgba(246, 170, 28, 0.15);
@@ -162,7 +163,7 @@ body {
 
     width: 125px;
     height: 38px;
-    font-family: 'Inter' sans-serif;    
+    font-family: 'Inter' sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 38px;
@@ -176,7 +177,7 @@ body {
 
     width: 738px;
     height: 22px;
-    font-family: 'Inter' sans-serif;    
+    font-family: 'Inter' sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 22px;
@@ -208,7 +209,7 @@ body {
 
 .buttonHome {
 
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
@@ -229,6 +230,7 @@ body {
     width: 778px;
 
 }
+
 .detalhes {
     display: flex;
     flex-direction: column;
