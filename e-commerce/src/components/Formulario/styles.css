@@ -19,6 +19,7 @@
     line-height: 22px;
     text-align: start;
     letter-spacing: 0.75px;
+    margin-bottom: -20px;
 }
 
 .fhr {
@@ -53,6 +54,7 @@
     line-height: 28px;
     letter-spacing: 0.75px;
     color: #666666;
+    padding-left: 12px;
 }
 
 .infEntrega {
