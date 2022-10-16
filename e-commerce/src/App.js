@@ -5,6 +5,7 @@ import Produtos from "./Pages/Produtos"
 import Categorias from "./Pages/Categorias"
 import MeusPedidos from "./Pages/MeusPedidos"
 import Footer from "./components/footer/index.js"
+import Finalizar from "./Pages/FiinalizarCrompa/index.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -19,6 +20,7 @@ export default function App() {
               <Route path="/produtos" element={<Produtos/>}></Route>
               <Route path="/categorias" element={<Categorias/>}></Route>
               <Route path="/meus-pedidos" element={<MeusPedidos/>}></Route>
+              <Route path="/finalizar-compra" element={<Finalizar/>}></Route>
             </Routes>
         <Footer/>
        </BrowserRouter>
