@@ -89,7 +89,7 @@ export default function VerMeuCarrinho() {
                 </section>
             </div>
             <div className='divProdutosRelacionados' >
-                <div className='ProdutosRelacionados'>Produtos Refalicionados</div>
+                <div className='ProdutosRelacionados'>Produtos Relacionados</div>
                 <Link className='linkParaPgProdutos' to="/produtos" >Ver todos → </Link>
             </div>
             <div className='cards'>
