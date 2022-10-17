@@ -10,7 +10,7 @@ export default function MeuCarrinho() {
             backgroundColor: '#ffffff',
             boxShadow: '0px 4px 25px rgba(0, 0, 0, 0.15)',
             height: '454px',
-            width: '220px',
+            width: '315px',
             left: '1025px',
             top: '77px',
             borderRadius: '4px',

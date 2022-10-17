@@ -1,15 +1,15 @@
 .product{
-    position: absolute;
+    /* position: absolute; */
     width: 700.33px;
     height: 571px;
     left: 100px;
     top: 274px;
-    /*background: #E2E2E2;*/
+    background: #E2E2E2;
     border-radius: 4px;
 }
 
 .principal{
-    position: absolute;
+    /* position: absolute; */
     width: 498.42px;
     height: 248px;
     left: 100.59px;
@@ -18,7 +18,7 @@
 }
 
 .secundaria1{
-    position: absolute;
+    /* position: absolute; */
     width: 117.81px;
     height: 96px;
     right:27.99px;
@@ -30,7 +30,7 @@
 
 }
 .secundaria2{
-    position: absolute;
+    /* position: absolute; */
     width: 117.81px;
     height: 96px;
     right:27.99px;
@@ -42,7 +42,7 @@
 
 }
 .secundaria3{
-    position: absolute;
+    /* position: absolute; */
     width: 117.81px;
     height: 96px;
     right:27.99px;
@@ -54,7 +54,7 @@
 
 }
 .secundaria4{
-    position: absolute;
+    /* position: absolute; */
     width: 117.81px;
     height: 96px;
     right:27.99px;
@@ -66,7 +66,7 @@
 
 }
 .secundaria5{
-    position: absolute;
+    /* position: absolute; */
     width: 117.81px;
     height: 96px;
     right:27.99px;
@@ -79,7 +79,7 @@
 }
 
 .menor{
-    position: absolute;
+    /* position: absolute; */
     width: 83.8px;
     height: 41.7px;
     left: 16.91px;
@@ -87,7 +87,7 @@
 }
 
 .botao{
-    position: absolute;
+    /* position: absolute; */
     width: 11px;
     height: 22px;
     background-color: transparent;

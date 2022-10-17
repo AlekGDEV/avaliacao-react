@@ -36,7 +36,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 30px;
-    gap: 100px;
+    gap: 60px;
     width: 700px;
     height: 364px;
     background: #FFFFFF;
@@ -116,13 +116,16 @@
 .divInfoAdicional {
     display: flex;
     flex-direction: row;
-    gap:30px
+    gap: 30px;
+    align-items: center;
 }
-.divInfo{
+
+.divInfo {
     display: flex;
-    gap:5px;
+    gap: 5px;
     flex-direction: column;
 }
+
 .estiloInfo {
     display: flex;
     gap: 10px;
@@ -137,18 +140,21 @@
     border: none;
     border-radius: 8px;
 }
-.botaoOk{
+
+.botaoOk {
     width: 60px;
     height: 60px;
     background: #F5F5F5;
     border: none;
-border-radius: 8px;
+    border-radius: 8px;
 }
-.divAcao{
+
+.divAcao {
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
+
 .section2 {
     display: flex;
     flex-direction: column;
@@ -160,12 +166,55 @@ border-radius: 8px;
     background: #FFFFFF;
     border-radius: 4px;
 }
-.divSpan{
+
+.divSpan {
     display: flex;
     flex-direction: column;
 }
-.precos{
+
+.precos {
     display: flex;
     flex-direction: row;
-    gap: 180px;
+    gap: 100px;
+}
+
+.botaoContinuar {
+    width: 274px;
+    height: 40px;
+    background: #F6AA1C;
+    border-radius: 8px;
+}
+
+.divProdutosRelacionados {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ProdutosRelacionados {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.linkParaPgProdutos {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    text-decoration: none;
+    color: #C92071;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:8px
 }

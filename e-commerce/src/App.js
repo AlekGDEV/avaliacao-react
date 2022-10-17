@@ -9,6 +9,8 @@ import Finalizar from "./Pages/FinalizarCrompa/index.js";
 import Cadastro from "./Pages/Cadastro/index.js";
 import Login from "./Pages/Login/index.js";
 import "bootstrap/dist/css/bootstrap.min.css";
+import VerMeuCarrinho from "./Pages/VerMeuCarrinho/index.js";
+
 
 
 export default function App() {
@@ -25,6 +27,8 @@ export default function App() {
               <Route path="/finalizar-compra" element={<Finalizar/>}></Route>
               <Route path="/cadastro" element={<Cadastro />}></Route> 
               <Route path="/login" element={<Login/>}></Route>
+              <Route path="/meu-carrinho" element={<VerMeuCarrinho/>} ></Route>
+              <Route path="/finalizar-compra" element={<Finalizar/>} ></Route>
               {/* <Route path="/sign-up" element{<SignUp/>}></Route> */}
             </Routes>
         <Footer/>

@@ -2,6 +2,7 @@ import tenis2 from './tenis2.png.png'
 import { Link, useLocation } from "react-router-dom"
 import './index.css'
 import Item from '../../components/Contador'
+import { CardSection } from '../../components/Section/CardSection'
 export default function VerMeuCarrinho() {
     return (
         <div className="corpoDaPagina" >
@@ -81,15 +82,22 @@ export default function VerMeuCarrinho() {
                     <div>Total</div>
                     <div>R$ 219,00</div>
                     </div>
-                    <Link to="/finalizarCompra" >
-                    <button></button>
+                    <Link to="/finalizar-compra" >
+                    <button className='botaoContinuar'>Continuar</button>
                     </Link>
 
                 </section>
             </div>
-            <di>
-
-            </di>
+            <div className='divProdutosRelacionados' >
+                <div className='ProdutosRelacionados'>Produtos Refalicionados</div>
+                <Link className='linkParaPgProdutos' to="/produtos" >Ver todos → </Link>
+            </div>
+            <div className='cards'>
+                <CardSection/>
+                <CardSection/>
+                <CardSection/>
+                <CardSection/>
+            </div>
         </div>
     )
 }

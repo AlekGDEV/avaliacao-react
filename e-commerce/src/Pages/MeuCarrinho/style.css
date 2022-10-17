@@ -1,7 +1,7 @@
 .produtos {
     display: flex;
     flex-direction: column;
-    gap: 40px
+    gap: 30px
 }
 
 .produto1MeuCarrinho {
@@ -10,26 +10,23 @@
 }
 
 .divImg {
-    width: 71.18px;
+    width: 100px;
     height: 58px;
-    left: 0px;
-    top: 0px;
     background: #E2E3FF;
     box-shadow: 0px 2.66916px 16.6822px rgba(0, 0, 0, 0.05);
     border-radius: 2.66916px;
 }
 
 .imgTenis {
-    width: 50.63px;
-    height: 25.19px;
+    width: 60px;
+    height: 40px;
     padding-left: 10.22px;
     padding-right: 5px;
     padding-top: 16.35px;
 }
 
 .spanTitulo {
-    width: 115px;
-    height: 24px;
+    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
