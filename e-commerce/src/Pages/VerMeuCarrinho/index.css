@@ -1,0 +1,171 @@
+.corpoDaPagina {
+    background-color: #E5E5E5;
+}
+
+.divImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 127.63px;
+    height: 104px;
+    left: 30px;
+    top: 92px;
+    background: #E2E3FF;
+    box-shadow: 0px 4.78608px 29.913px rgba(0, 0, 0, 0.05);
+    border-radius: 4.78608px;
+
+}
+
+.img {
+    width: 90.78px;
+    height: 45.17px;
+
+}
+
+.divSecoes {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 145px;
+
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 100px;
+    width: 700px;
+    height: 364px;
+    background: #FFFFFF;
+    ;
+    border-radius: 4px;
+}
+
+.tdPrduto {
+    display: flex;
+    flex-direction: row;
+}
+
+.referencia {
+    width: 219px;
+    margin-top: -2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+}
+
+.divCores {
+    display: flex;
+    gap: 50px;
+    align-items: baseline;
+}
+
+.cor {
+    width: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #8F8F8F;
+}
+
+.tipoDeCor {
+    width: 128px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #1F1F1F;
+}
+
+.titulo {
+    display: flex;
+    width: 118px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.subTitulos {
+    width: 112.29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+
+    color: #474747;
+}
+
+.divInfoAdicional {
+    display: flex;
+    flex-direction: row;
+    gap:30px
+}
+.divInfo{
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+}
+.estiloInfo {
+    display: flex;
+    gap: 10px;
+
+}
+
+.input {
+    width: 250px;
+    height: 60px;
+    color: #474747;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 8px;
+}
+.botaoOk{
+    width: 60px;
+    height: 60px;
+    background: #F5F5F5;
+    border: none;
+border-radius: 8px;
+}
+.divAcao{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 20px;
+    width: 334px;
+    height: 364px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+.divSpan{
+    display: flex;
+    flex-direction: column;
+}
+.precos{
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+}
