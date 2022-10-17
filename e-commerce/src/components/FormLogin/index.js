@@ -11,7 +11,7 @@ export default function FormLogin() {
             <div className="login-form">
                 <div className="texto-login">
                     <span className="titulo-login" >Acesse sua conta</span>
-                    <span class="span-login">Novo cliente? Então registre-se <Link className="span-login"to="/">aqui</Link></span>
+                    <span class="span-login">Novo cliente? Então registre-se <Link className="span-login"to="/sign-up">aqui</Link></span>
                 </div>
                 <form>
                     <div className="formlogin-allinput">

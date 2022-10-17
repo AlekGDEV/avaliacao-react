@@ -1,0 +1,13 @@
+.produtosall{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.box-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: -20px;
+    margin-bottom: 140px;
+}

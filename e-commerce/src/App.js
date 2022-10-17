@@ -25,6 +25,7 @@ export default function App() {
               <Route path="/finalizar-compra" element={<Finalizar/>}></Route>
               <Route path="/cadastro" element={<Cadastro />}></Route> 
               <Route path="/login" element={<Login/>}></Route>
+              {/* <Route path="/sign-up" element{<SignUp/>}></Route> */}
             </Routes>
         <Footer/>
        </BrowserRouter>

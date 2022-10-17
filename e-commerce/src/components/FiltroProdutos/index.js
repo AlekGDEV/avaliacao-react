@@ -5,10 +5,6 @@ import "./style.css"
 export default function FiltroProdutos() {
     return (
         <div>
-            <div>
-                <span>Resultados para "Tênis" - 389 produtos</span>
-                
-            </div>
             <nav className="navFilter">
                 <span className="textFilter">Filtrar por</span>
                 <hr className="linhaFilter" />
