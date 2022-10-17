@@ -23,6 +23,7 @@ export default function App() {
               <Route path="/meus-pedidos" element={<MeusPedidos/>}></Route>
               <Route path="/finalizar-compra" element={<Finalizar/>}></Route>
               <Route path="/cadastro" element={<Cadastro />}></Route> 
+              {/* <Route path="/login" element={<Login/>}></Route> */}
             </Routes>
         <Footer/>
        </BrowserRouter>

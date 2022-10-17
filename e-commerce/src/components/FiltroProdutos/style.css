@@ -1,9 +1,13 @@
-nav {
+.navFilter {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
     width: 308px;
     border-radius: 4px;
+    margin-left: 134px;
 }
 
-hr {
+.linhaFilter{
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -11,6 +15,7 @@ hr {
 .textFilter {
     margin-top: 30px ;
     margin-left: 30px;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.75px;
@@ -23,6 +28,7 @@ hr {
 }
 
 .nav-categoria { 
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
@@ -30,6 +36,7 @@ hr {
 }
 
 label {
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
@@ -73,7 +80,7 @@ label {
     margin-bottom: 3px;
   }
 
-  .radio input:checked + label:before {
+.radio input:checked + label:before {
     box-sizing: border-box;
     background-color: #C92071;
     outline: #C92071 solid 1px;
