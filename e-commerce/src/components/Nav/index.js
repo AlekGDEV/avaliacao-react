@@ -21,7 +21,7 @@ export default function Nav(){
                         <img src={search}></img>
                     </div>
         
-                    <a className="linkCadastrar" href="">Cadastre-se</a>
+                    <Link to="/cadastro" className="linkCadastrar">Cadastre-se</Link>
                     <button className="entrar">Entrar</button>
                     <button className="botaoCarrinho" >
                         <img src={carrinho} ></img>
