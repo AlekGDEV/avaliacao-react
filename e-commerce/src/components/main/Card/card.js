@@ -5,7 +5,7 @@ import "./index.css";
 export default function Card(props) {
   return (
       <div class="container">
-          <div class="imagem">
+          <div className="imagem">
           <img className="imagem" src={props.imgprod} alt="produto" />  
            </div>
          
