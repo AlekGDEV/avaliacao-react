@@ -1,0 +1,90 @@
+.bodycad {
+    background-color:  #f5f5f5;;
+}
+
+.cadastroNav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 100px;
+    gap: 10px;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #FFFFFF;
+}
+
+
+
+.logocad {
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+}
+
+.textLogocad {
+    width: 144.83px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.9877px;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    color: #C92071;
+    margin-top: 8px;
+}
+
+.criarC {
+    margin-left: 290px;
+    padding-top: 70px;
+}
+
+.form {
+    margin-left: 190px;
+    margin-bottom: 30px;
+}
+
+.check {
+    display: flex;
+    margin-left:294px;
+    width: 718px;
+}
+
+.boxcheck{
+    margin-right: 5px;
+    margin-bottom: 35px;
+}
+ 
+.emailofetas {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #474747;
+}
+
+.submitcad {
+    height: 48px;
+    width: 750px;
+    background: #C92071;
+    border-radius: 8px;
+    border: none;
+    margin-left: 290px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #F5F5F5;
+    margin-bottom: 153px;
+}

@@ -1,0 +1,55 @@
+.span-produtos {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    margin: 0 auto;
+    margin-bottom: 56px;
+    margin-top: 58px;
+}
+
+.span-resultado {
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.i-produto {
+    height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.span-filtro {
+    height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    padding: 10px;
+    border: 1px solid #474747;
+    border-radius: 4px;
+}
+
+.produtosall {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 140px;
+    margin-right: 110px;
+}

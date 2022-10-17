@@ -1,0 +1,20 @@
+.bttn{
+    border:none;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 15px;
+    color:  rgba(201, 32, 113, 1);
+    padding: 10px 20px 10px; 
+    text-align: center;
+    background: #F7F7FC;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.bttn:hover{
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+    color:  #F7F7FC;
+    background: #7B61FF;
+
+}

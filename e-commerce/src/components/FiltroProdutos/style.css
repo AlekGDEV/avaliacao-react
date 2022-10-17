@@ -1,0 +1,89 @@
+.navFilter {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 308px;
+    border-radius: 4px;
+    margin-left: 134px;
+}
+
+.linhaFilter{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.textFilter {
+    margin-top: 30px ;
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;
+    font-weight: bold;
+}
+
+.itens {
+    margin-left: 30px;
+}
+
+.nav-categoria { 
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+
+label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #474747;
+}
+
+.checkbox input, .radio input {
+    display: none
+}
+
+.checkbox input + label::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid gray;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+}
+
+.checkbox input:checked + label:before {
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #C92071;
+    border: none;    
+    
+}
+
+.radio input + label:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid gray;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+  }
+
+.radio input:checked + label:before {
+    box-sizing: border-box;
+    background-color: #C92071;
+    outline: #C92071 solid 1px;
+    border: 3px solid #FFFFFF;
+  }
+  
