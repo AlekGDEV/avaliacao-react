@@ -16,6 +16,26 @@
     background: #FFFFFF;
 }
 
+.logocad {
+    margin-left: 10px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+}
+
+.textLogocad {
+    width: 212px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.3951px;
+    letter-spacing: -0.01em;
+    color: #C92071;
+    margin-top: 8px;
+}
+
 .criarC {
     margin-left: 290px;
     padding-top: 70px;

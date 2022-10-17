@@ -6,9 +6,9 @@ export default function Cadastro() {
     return (
        <body className="bodycad">
             <nav className="cadastroNav">
-                <div className="logo">
+                <div className="logocad">
                     <img src={logoSimble}></img>
-                    <h1 className="textLogo">Digital Store</h1>
+                    <h1 className="textLogocad">Digital Store</h1>
                 </div>
             </nav>
             <main className="maincad">
