@@ -6,12 +6,12 @@ import tenis from "./img/tenis.svg"
 
 export default function DetalheCarrinho() {
     return (
-        
+
         <div className='detalhes container-fluid' >
             <div className='fundo'>
                 <div className='tituloSucesso'>
                     <div className="ico">🎉</div>
-                    <h3 className='textoh3'>Compra Realizada<br />Com Sucesso!</h3>
+                    <h3 className='textoh3'>Compra Realizada<br/>Com Sucesso!</h3>
                 </div>
 
                 <hr className='linhaHr' />
