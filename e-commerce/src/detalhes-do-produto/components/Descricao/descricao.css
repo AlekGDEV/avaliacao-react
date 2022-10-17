@@ -32,6 +32,24 @@
 
 }
 
+.ava{
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 1020px;
+    top: 390px;
+    font-family: 'inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #8F8F8F;
+    display: flex;
+    align-items: center;
+
+}
+
 .RS{
     position: absolute;
     width: 26px;

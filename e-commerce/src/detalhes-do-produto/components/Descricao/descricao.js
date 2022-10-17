@@ -7,7 +7,15 @@ function App() {
         <div>
             <span className='title'>Tênis Nike Revolution 6 Next Nature Masculino</span>
             <span className='ref'>Casual | Nike | REF: 38417711</span>
-            {/*estrelas*/}
+            <div>
+              <img src='imagens/estrela.png' alt='estrela'/>
+              <img src='imagens/estrela.png' alt='estrela'/>
+              <img src='imagens/estrela.png' alt='estrela'/>
+              <img src='imagens/estrela.png' alt='estrela'/>
+              <img src='imagens/estvazia.png' alt='estrela'/>
+              <img src='imagens/nota.png' alt='nota'/>
+              <span className='ava'> '(90 avaliações)' </span>
+            </div>
             <span className='RS'>R$</span>
             <span className='price'>219,00</span>
             <span className='oldPrice'>299,00</span>
