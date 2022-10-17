@@ -4,8 +4,11 @@ import Home from "./Pages/Home"
 import Produtos from "./Pages/Produtos"
 import Categorias from "./Pages/Categorias"
 import MeusPedidos from "./Pages/MeusPedidos"
-import Footer from "./components/Footer/index.js"
+import Footer from "./components/footer/index.js"
+import Finalizar from "./Pages/FinalizarCrompa/index.js";
+import Cadastro from "./Pages/Cadastro/index.js";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 
 export default function App() {
   return (
@@ -18,13 +21,12 @@ export default function App() {
               <Route path="/produtos" element={<Produtos/>}></Route>
               <Route path="/categorias" element={<Categorias/>}></Route>
               <Route path="/meus-pedidos" element={<MeusPedidos/>}></Route>
+              <Route path="/finalizar-compra" element={<Finalizar/>}></Route>
+              <Route path="/cadastro" element={<Cadastro />}></Route> 
               {/* <Route path="/login" element={<Login/>}></Route> */}
-              
             </Routes>
         <Footer/>
        </BrowserRouter>
-       
-       
     </div>
   )
 }
