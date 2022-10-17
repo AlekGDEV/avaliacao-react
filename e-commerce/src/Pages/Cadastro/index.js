@@ -1,4 +1,5 @@
-import "./styles.css"
+import "./index.css"
+import { Link, useLocation } from "react-router-dom"
 import logoSimble from "./Vector.png"
 import Form from "../../components/Formulario"
 
@@ -21,7 +22,9 @@ export default function Cadastro() {
                     <p className="emailofetas">Quero receber por email ofertas e novidades das lojas Digital Store. A frêquencia de envios pode<br />variar de acordo com a interação do cliente.</p>
                 </div>
                 
+                <Link to="/login">
                 <input type="submit" className="submitcad" value="Criar Conta"/>
+                </Link>
             </main>
         </body> 
     )

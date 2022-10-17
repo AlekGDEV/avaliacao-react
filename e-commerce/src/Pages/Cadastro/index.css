@@ -16,6 +16,8 @@
     background: #FFFFFF;
 }
 
+
+
 .logocad {
     margin-left: 10px;
     padding-top: 30px;
@@ -26,11 +28,12 @@
 }
 
 .textLogocad {
-    width: 212px;
+    width: 144.83px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 36.3951px;
+    font-size: 23.9877px;
+    line-height: 29px;
     letter-spacing: -0.01em;
     color: #C92071;
     margin-top: 8px;
@@ -48,8 +51,8 @@
 
 .check {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin-left:294px;
+    width: 718px;
 }
 
 .boxcheck{
@@ -58,8 +61,7 @@
 }
  
 .emailofetas {
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 22px;

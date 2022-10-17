@@ -1,0 +1,139 @@
+.login {
+    display: flex;
+    gap: 44px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 30px;
+    width: 583px;
+    height: 560px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.texto-login {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo-login {
+    width: 523px;
+    height: 36px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: #1F1F1F;
+}
+
+.span-login {
+    width: 306px;
+    height: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.formlogin-allinput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.formlogin-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-login {
+    width: 108.7px;
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.input-box {
+    width: 523px;
+    height: 60px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    border: none;
+    padding: 24.61px;
+}
+
+.input-box::placeholder {
+    padding: 0;
+    width: 404.04px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    color: #666666;
+    opacity: 0.6;
+}
+
+.link-box {
+    margin-top: 30px;
+}
+
+.link-login {
+    width: 152px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.25px;
+    color: #474747;
+}
+
+.center {
+    text-align: center;
+}
+
+.botao-login {
+    width: 523px;
+    height: 48px;
+    background: #C92071;
+    border-radius: 8px;
+    border: none;
+    color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.c-flex{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.img-login1 {
+    position: absolute;
+    top: 340px;
+}
+
+.img-login2 {
+    position: absolute;
+    top: 500px;
+    right: 100px;
+}

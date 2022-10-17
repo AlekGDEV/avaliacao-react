@@ -22,7 +22,7 @@ export default function Nav(){
                     </div>
         
                     <Link to="/cadastro" className="linkCadastrar">Cadastre-se</Link>
-                    <button className="entrar">Entrar</button>
+                    <Link to="/login"><button className="entrar">Entrar</button></Link>
                     <button className="botaoCarrinho" >
                         <img src={carrinho} ></img>
                     </button>
