@@ -1,0 +1,147 @@
+.produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+.produto1MeuCarrinho {
+    display: flex;
+    gap: 10px;
+}
+
+.divImg {
+    width: 71.18px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+    background: #E2E3FF;
+    box-shadow: 0px 2.66916px 16.6822px rgba(0, 0, 0, 0.05);
+    border-radius: 2.66916px;
+}
+
+.imgTenis {
+    width: 50.63px;
+    height: 25.19px;
+    padding-left: 10.22px;
+    padding-right: 5px;
+    padding-top: 16.35px;
+}
+
+.spanTitulo {
+    width: 115px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.hr {
+    width: 220px;
+    border: 1px solid #CCCCCC;
+    flex: none;
+    flex-grow: 0;
+}
+
+.paragrafoSobreProduto {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.spantexto {
+    width: 167px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.75px;
+    color: #1F1F1F;
+}
+
+.precoDeVenda {
+    width: 88px;
+    height: 24px;
+    left: 0px;
+    top: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.precoNormal {
+    width: 80px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-decoration-line: line-through;
+    color: #CCCCCC;
+}
+.elementosDeacao{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 20px;
+}
+.valorTotal {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.spanValorTotal {
+    width: 94px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+}
+.precoTotal{
+    width: 86px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.75px;
+color: #EE4266;
+}
+.esvaziar{
+width: 111.65px;
+height: 22px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0.25px;
+color: #474747;
+}
+.botaoVerCarrinho{
+    background: #C92071;
+border-radius: 8px;
+width: 124px;
+height: 40px;
+border: none;
+color:#F5F5F5;
+}

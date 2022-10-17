@@ -1,0 +1,21 @@
+.botao {
+    box-sizing: border-box;
+    width: 35px;
+    height: 35px;
+    left: 514px;
+    top: 92px;
+    background: #FFFFFF;
+    border: 0.729167px solid #CCCCCC;
+    border-radius: 2.91667px;
+
+
+   
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.6667px;
+    line-height: 18px;
+    letter-spacing: 0.546875px;
+    color: #474747;
+}

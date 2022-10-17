@@ -2,8 +2,9 @@ import { Link, useLocation } from "react-router-dom"
 import "./index.css"
 import logoSimble from "./img/Vector.png"
 import search from "./img/Search.png"
-import carrinho from "./img/carrinho.png"
 import React from "react";
+import MeuCarrinho from "../../Pages/MeuCarrinho";
+import Carrinho from "./Carrinho";
 
 
 export default function Nav(){
@@ -21,11 +22,16 @@ export default function Nav(){
                         <img src={search}></img>
                     </div>
         
+                    <a className="linkCadastrar" href="">Cadastre-se</a>
+                    <button className="entrar">Entrar</button>
+                    <MeuCarrinho/>
+
                     <Link to="/cadastro" className="linkCadastrar">Cadastre-se</Link>
                     <Link to="/login"><button className="entrar">Entrar</button></Link>
                     <button className="botaoCarrinho" >
                         <img src={carrinho} ></img>
                     </button>
+
                 </div>
             </div>
 
